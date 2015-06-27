@@ -14,6 +14,9 @@
 
 ### Results obtained
 
+![My image](carlosloslas.github.com/PyVortexInfoVisualisation/pics/3dVchain.png)
+
+
 ### How to use it?
 
 ### Acnowledgements
