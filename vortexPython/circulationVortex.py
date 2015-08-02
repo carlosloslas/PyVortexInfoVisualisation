@@ -19,6 +19,7 @@ def circulationPoint(vel_seed_time):
     ---
     C.Losada de la Lastra 2015
     """
+
     sx,sy,sz = vel_seed_time
     circulation = M.fsum([LA.norm([sx[i],sy[i],sz[i]]) for i in range(len(sx))])
     
@@ -53,6 +54,7 @@ def circulationFieldUpdate(pnts,pnts_ijk,pnts_circ,pnts_vect_swirl,CircF,PosF,L2
     ---
     C.Losada de la Lastra 2015
     """
+
     X,Y,Z = PosF    
 
     decay = 2 #-> DECAY DISTANCE FOR CIRCULATION <-#
@@ -63,6 +65,7 @@ def circulationFieldUpdate(pnts,pnts_ijk,pnts_circ,pnts_vect_swirl,CircF,PosF,L2
         circ_p_swirl_vect = pnts_vect_swirl[i]
         circ_p_mag = pnts_circ[i]
         
+
 #        if CircF[kc][jc][ic] == 0: #initially unassigned circulation 
         CircF[kc][jc][ic] = circ_p_mag
 #            #circFupdate_decay(p,ijk_p,circ_p,vect_swilr,CircF,PosF,L2,decay,average=None):
@@ -80,7 +83,7 @@ def circulationFieldUpdate(pnts,pnts_ijk,pnts_circ,pnts_vect_swirl,CircF,PosF,L2
 #                    Z[kc][jc][ic]])+' in position field'
         CircF = circFupdate_decay(circ_p, circ_p_ijk, circ_p_mag,\
                                         circ_p_swirl_vect, CircF,PosF,L2,decay,average=1)
-            
+
     
     return CircF
     
@@ -105,7 +108,9 @@ def circulationFieldUpdate(pnts,pnts_ijk,pnts_circ,pnts_vect_swirl,CircF,PosF,L2
 #    CircF_updated = CircF
 #    return CircF_updated    
  
+
 def circFupdate_decay(p,ijk_p,circ_p,vect_swilr,CircF,PosF,L2,decay,average=None):
+
     X,Y,Z = PosF
     ip,jp,kp = ijk_p
     #define distances away from point in order to reduce looping allong field
@@ -128,6 +133,7 @@ def circFupdate_decay(p,ijk_p,circ_p,vect_swilr,CircF,PosF,L2,decay,average=None
     dzneg = kp-decay
     if dzneg < 0:
         dzneg = 0
+
     if average == None:
         for k in range(dzneg,dzpos+1):
             for j in range(dyneg,dypos+1):
@@ -174,6 +180,7 @@ def circFupdate_decay(p,ijk_p,circ_p,vect_swilr,CircF,PosF,L2,decay,average=None
                                 #circulation decays with distance in unintegrated parts of -ve_L2 
                     else:
                         pass
+
     return CircF
     
    

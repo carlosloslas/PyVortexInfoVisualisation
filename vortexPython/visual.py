@@ -39,17 +39,17 @@ VelF = [U,V,W]
 #ymin = N.amin(Y)
 #zmax = N.amax(Z)
 #zmin = N.amin(Z)
-print('Data read from '+velocityfile)
+print('=> Data read from '+velocityfile)
 
 
 ###---Calcs---###
 
 ###lambda2_3d(X,Y,Z,U,V,W):
 L2 = lambda2_3d(X,Y,Z,U,V,W)
-
+print('=> Lambda_2 field calculated')
 
 #geoVortex(L2,PosF,VelF)
 CircF = geoVortex(L2,PosF,VelF)
 
 
-print 'Visualisation ended'
+print '=> Visualisation ended'
