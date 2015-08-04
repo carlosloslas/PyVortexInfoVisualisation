@@ -4,13 +4,13 @@
 ### Introduction
 
 ### Code elements
-1. Velocity field generation
+1. Velocity field generation. Functions which calculate and display the velocity field induced by one or more vortex rings.
 
-2. Image writing 
+2.VTK image writing. Functions that take the generated velocity field and translate it to a binary VTK image using the package 'tvtk' package.
 
-3. Image reading
+3. Image reading. Using the 'vtk' package to read the binary image where the field is stored.
 
-4. Vortical field information extraction and visualisation
+4. Vortical field information extraction and visualisation. Combining the lambda 2 vortex core definition, linear algebra, and vortex properties, to firstly locate the vortex core and subsequently extract the circulation from the field. 
 
 ### Results obtained
 
