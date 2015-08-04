@@ -14,8 +14,20 @@
 
 ### Results obtained
 
+#### Vortex rings
+Self-generated velocity field due to a single vortex ring.
 ![3dvchain](https://cloud.githubusercontent.com/assets/10100481/9027607/cf689992-3953-11e5-8f24-4a60161b2c20.png)
+Aplication of the Lambda 2 definition of a vortex core.
 ![chainl](https://cloud.githubusercontent.com/assets/10100481/9027612/01a8de30-3954-11e5-92a0-efbd0d02b373.png)
+Use of lienear algebra and vortex properties to obtain and visualise the circulation of the vortex ring.
+![chainc](https://cloud.githubusercontent.com/assets/10100481/9027614/0b578936-3954-11e5-9b86-479a22d94fb7.png)
+
+#### Vortex ring chains
+Self-generated velocity field.
+![3dvchain](https://cloud.githubusercontent.com/assets/10100481/9027607/cf689992-3953-11e5-8f24-4a60161b2c20.png)
+Lambda 2 definition of the vortex core.
+![chainl](https://cloud.githubusercontent.com/assets/10100481/9027612/01a8de30-3954-11e5-92a0-efbd0d02b373.png)
+Circulation of the vortex rings.
 ![chainc](https://cloud.githubusercontent.com/assets/10100481/9027614/0b578936-3954-11e5-9b86-479a22d94fb7.png)
 
 ### How to use it?
