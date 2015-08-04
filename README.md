@@ -20,6 +20,16 @@
 
 ### How to use it?
 
+1. I developed this project using the Anaconda distribution of Python. I can't guaranty that it will work if you dont use it. http://continuum.io/downloads.
+2. Firstly clone the repository into your system. 
+`git clone https://github.com/carlosloslas/PyVortexInfoVisualisation.git`
+
+3. Open Spyder, the editor I used for the developement of the project. In your terminal type: 
+`spyder`
+4. Setup your spyder working directory to where you cloned the repository.
+5. Open the ``` visual.py ``` file.
+
+
 ### Acnowledgements
 
 Thanks to my supervisor Dr. Gabriel Weymouth for all his support. Without all his good suggestions and meetings this proyect would have never reached this level. 
