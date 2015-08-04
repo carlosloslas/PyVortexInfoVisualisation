@@ -6,7 +6,7 @@
 ### Code elements
 1. Velocity field generation. Functions which calculate and display the velocity field induced by one or more vortex rings.
 
-2.VTK image writing. Functions that take the generated velocity field and translate it to a binary VTK image using the package 'tvtk' package.
+2. VTK image writing. Functions that take the generated velocity field and translate it to a binary VTK image using the package 'tvtk' package.
 
 3. Image reading. Using the 'vtk' package to read the binary image where the field is stored.
 
