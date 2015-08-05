@@ -52,6 +52,8 @@ Circulation of the vortex rings.
 4. Setup your spyder working directory to where you cloned the repository.
 5. Open the ``` visual.py ``` file.
 
+###Bibliography
+[1] Jinhee Jeong and Fazle Hussain, On the identification of a vortex, Journal of Fluid Mechanics, Vol. 285 (1995), pp. 69-94.
 
 ### Acnowledgements
 
