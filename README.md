@@ -50,7 +50,11 @@ Circulation of the vortex rings.
 3. Open Spyder, the editor I used for the developement of the project. In your terminal type: 
 `spyder`
 4. Setup your spyder working directory to where you cloned the repository.
-5. Open the ``` visual.py ``` file.
+5. Open the ``` visual.py ``` file and hit play.
+
+(note: I developed the code using OS X and I am not sure if it will work on other systems)
+
+(note II: There where a number of packages that I had to add to my anaconda distribution. Python will start complaining about them and you should install them. As you encounter them, I would appreciate If you could put them in an issue so that I can update this readme.)
 
 ###Bibliography
 [1] Jinhee Jeong and Fazle Hussain, On the identification of a vortex, Journal of Fluid Mechanics, Vol. 285 (1995), pp. 69-94.
