@@ -15,13 +15,13 @@ The results obtained show that there is an iprovement in the visualisation of th
 As a breif conclusion it can be said that the project contributed to improve the visualisation techniques of vortical flow fields. Allthough the project didn't achieve visualisation of the vorticity of the vortex rings, this is suggested in the future work section of the full write-up of the project, together with code and algorithm improvements. The work initially developed could lead to further research into an efficient way of visualising the vorticity of any given flow field where vortices are present.
 
 ### Algorithm elements
-1. Velocity field generation. Functions which calculate and display the velocity field induced by one or more vortex rings.
+1. Velocity field generation. Functions which calculate and display the velocity field induced by one or more vortex rings. (`BiotSavart.py, circumference.py, rank_nullspace.py, tangent.py, vField3d.py, vortexCore.py, vortexLine.py, vortexTube.py`)
 
-2. VTK image writing. Functions that take the generated velocity field and translate it to a binary VTK image using the package 'tvtk' package.
+2. VTK image writing. Functions that take the generated velocity field and translate it to a binary VTK image using the package 'tvtk' package. (`vF3d_VTK.py`)
 
-3. Image reading. Using the 'vtk' package to read the binary image where the field is stored.
+3. Image reading. Using the 'vtk' package to read the binary image where the field is stored. (`VTK_ReadVf3d.py`)
 
-4. Vortical field information extraction and visualisation. Combining the lambda 2 vortex core definition, linear algebra, and vortex properties, to firstly locate the vortex core and subsequently extract the circulation from the field. 
+4. Vortical field information extraction and visualisation. Combining the lambda 2 vortex core definition, linear algebra, and vortex properties, to firstly locate the vortex core and subsequently extract the circulation from the field. (`geometricVortex.py, lambda2.py, seeding.py, visual.py`)
 
 ### Results obtained
 
@@ -57,4 +57,4 @@ Circulation of the vortex rings.
 
 ### Acnowledgements
 
-Thanks to my supervisor Dr. Gabriel Weymouth for all his support. Without all his good suggestions and meetings this proyect would have never reached this level. 
+Thanks to my supervisor Dr. Gabriel Weymouth for all his support. Without all his good suggestions and meetings this proyect would have never achieved what it has.
