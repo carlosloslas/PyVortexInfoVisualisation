@@ -56,7 +56,7 @@ Circulation of the vortex rings.
 
 (note II: There where a number of packages that I had to add to my anaconda distribution. Python will start complaining about them and you should install them. As you encounter them, I would appreciate If you could put them in an issue so that I can update this readme.)
 
-###Bibliography
+### Bibliography
 [1] Jinhee Jeong and Fazle Hussain, On the identification of a vortex, Journal of Fluid Mechanics, Vol. 285 (1995), pp. 69-94.
 
 ### Acnowledgements
